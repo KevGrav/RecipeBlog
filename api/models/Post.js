@@ -6,8 +6,8 @@ const PostSchema = new Schema({
   summary: String,
   content: String,
   cover: String,
-  likes: Number,
-  liked: [],
+  //likes: Number,
+  //liked: [],
   author: {type:Schema.Types.ObjectId, ref:'User'},
 }, {
   timestamps: true,
